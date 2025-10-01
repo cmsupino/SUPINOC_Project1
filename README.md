@@ -1,46 +1,23 @@
+# MAST 397-Sport Analytics
 # Project 1
+# Christina Supino and Isra Latosh
 
-
-If forking/cloning this repository, remember to set it to “private”.
-Then when submitting your assignment/project, share it with me ([jwsmith@wyattai.com](mailto:jwsmith@wyattai.com)).
-
-Please full out the relevant information below.
 
 ## Resources
-Snippets of code used from Laurie Shaw's:
+-Snippets of code used from Laurie Shaw's:
 <https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking>
+-Mettrica's sample data for Game 2
+-Wyatt Ai's example-notebook's content
 
-__Remember to clone the Metrics Sports data repository so you have access to their great tracking data.__
-
-<https://github.com/metrica-sports/sample-data>
 
 ## Brief description of Assignment/Project
-
-Evaluation of passes - how to assign value to different passes.
+-Project 1 defines a "Pass Impact Factor"(PIF value) that is calculated through 3 factors;Progression,Time of Possession and Third of Field.
+-The 3 factors are normalized and weighted according to believed importance.
+-PIF value is scaled from 1-5,where 1 is the worst and 5 is the best.
+-Note:PIF value does not consider passes from goal keeper.
 
 ## Group Members And Contributions
-
-## Setup
-
-If using `pyenv` virtual env:
-
-```shell
-python -m venv env
-source env/bin/activate
-```
-
-Otherwise activate your conda environment.
-
-From your virtual environment:
-
-```shell
-pip install -r requirements.txt
-```
-
-Get the data:
-
-```shell
-git clone https://github.com/metrica-sports/sample-data
-```
+-Code and Visuals: Christina Supino (40298851)
+-Analysis and Paper:Isra Latosh 
 
 ## Extra Comments
